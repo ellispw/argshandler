@@ -2,7 +2,7 @@
 C program to parse command line arguments into a structure
 
 Works as such:
-`
+```
 ./argshandler <subargs...> <main arg> <subargs 2 ...> <main arg 2>
 Gets parsed into a 2 structures represented as:
 <main arg>            <main arg 2>
@@ -10,7 +10,7 @@ Gets parsed into a 2 structures represented as:
 <len(sub args)>       <len(subargs 2)>
 
 These structures will be passed into the registered callbacks
- `
+ ```
  
  To create the argument handler:
  ```c
